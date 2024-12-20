@@ -1,69 +1,69 @@
 .page-header {
-  align-self: stretch;
-  flex-grow: 0;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  flex-grow: 0;
   align-items: flex-start;
-  padding: 0.5rem 1.25rem;
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: .5rem 1.25rem;
   background-color: $body-bg;
 }
 .page-header-text {
-  align-self: stretch;
-  flex-grow: 0;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
+  flex-grow: 0;
   gap: 20px;
-  padding: 0.75rem 0;
+  align-items: flex-start;
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: .75rem 0;
 }
 .top-page-header {
-  flex-grow: 0;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  flex-grow: 0;
   align-items: stretch;
-  padding: 0.25rem 0 0;
+  justify-content: flex-start;
+  padding: .25rem 0 0;
 }
 .header-subheader {
-  flex-grow: 1;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  flex-grow: 1;
   gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
   padding: 0;
 }
 .logo-text-badge-link {
-  flex-grow: 1;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
+  flex-grow: 1;
   gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
   padding: 0;
 }
 .header-label {
-  flex-grow: 0;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  flex-grow: 0;
   gap: 16px;
+  align-items: center;
+  justify-content: center;
 }
 .button-stripe {
-  flex-grow: 0;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
+  flex-grow: 0;
   gap: 8px;
+  align-items: center;
+  justify-content: flex-end;
   padding: 0;
 }
 .breadcrumb {
   .breadcrumb-item a {
-    color: $link-color;
     font-weight: $font-weight-normal;
+    color: $link-color;
   }
 }

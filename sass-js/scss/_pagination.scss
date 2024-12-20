@@ -12,13 +12,13 @@ $pagination-border-radius:          .75rem;
 $pagination-border-width:           1px;
 $pagination-border-color:           $gray-400;
 
-$pagination-focus-color:            rgba(255,255,255,1);
+$pagination-focus-color:            rgba(255, 255, 255, 1);
 $pagination-focus-bg:               $blue-600;
 
 $pagination-hover-bg:               rgba(0, 93, 147, .1); // background/transparent-brand
 $pagination-hover-border-color:     $pagination-border-color;
 
 $pagination-active-color:           var(--#{$prefix}body-color);
-$pagination-active-bg:              rgba(0,93,147,.1);
+$pagination-active-bg:              rgba(0, 93, 147, .1);
 $pagination-active-border-color:    $pagination-border-color;
 // scss-docs-end pagination-variables

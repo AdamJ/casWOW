@@ -27,11 +27,11 @@ $table-active-bg:             $blue-50; //#f0f8ff;
 
 $table-hover-color:           $table-color;
 $table-hover-bg-factor:       null;
-$table-hover-bg:              rgba(0, 131, 210, 0.2);
+$table-hover-bg:              rgba(0, 131, 210, .2);
 
 $table-border-factor:         null;
 $table-border-width:          1;
-$table-border-color:          rgba(34, 36, 38, 0.10);
+$table-border-color:          rgba(34, 36, 38, .1);
 
 $table-striped-order:         odd !default;
 $table-striped-columns-order: even !default;

@@ -7,8 +7,8 @@ $popover-max-width:                 17rem;
 $popover-border-width:              var(--#{$prefix}border-width);
 $popover-border-color:              var(--#{$prefix}border-color-translucent);
 $popover-border-radius:             var(--#{$prefix}border-radius);
-$popover-inner-border-radius:       calc(#{$popover-border-radius} - #{$popover-border-width}); // stylelint-disable-line function-disallowed-list
-$popover-box-shadow:                0 .5rem 1rem 0 rgba(0, 0, 0, 0.14), 0 0 .125rem 0 rgba(0, 0, 0, 0.12);
+$popover-inner-border-radius:       calc(#{$popover-border-radius} - #{$popover-border-width});
+$popover-box-shadow:                0 .5rem 1rem 0 rgba(0, 0, 0, .14), 0 0 .125rem 0 rgba(0, 0, 0, .12);
 
 $popover-header-font-size:          $font-size-base;
 $popover-header-bg:                 var(--#{$prefix}tertiary-bg);

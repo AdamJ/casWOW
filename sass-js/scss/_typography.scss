@@ -1,12 +1,11 @@
 // Typography
 //
 // Font, line-height, and color for body text, headings, and more.
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,600&display=swap');
+@import "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,600&display=swap";
 
 // scss-docs-start font-variables
-// stylelint-disable value-keyword-case
 $font-family-sans-serif:      "IBM Plex Sans", serif;
 $font-family-monospace:       "IBM Plex Mono", monospace;
 $font-family-fa:              "Font Awesome 5 Free";
@@ -15,7 +14,6 @@ $display-font-family:         "Inter", serif;
 $display-font-style:          normal;
 $display-font-weight:         600;
 
-// stylelint-enable value-keyword-case
 $font-family-base:            var(--#{$prefix}font-sans-serif);
 $font-family-code:            var(--#{$prefix}font-monospace);
 
