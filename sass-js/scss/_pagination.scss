@@ -1,0 +1,24 @@
+// Pagination
+
+// scss-docs-start pagination-variables
+$pagination-padding-y:              .375rem; // 6px
+$pagination-padding-x:              .5rem; // 8px
+$pagination-padding-y-sm:           .25rem; // 4px
+$pagination-padding-x-sm:           .375rem;
+$pagination-padding-y-lg:           .75rem; // 12px
+$pagination-padding-x-lg:           1rem;
+
+$pagination-border-radius:          .75rem;
+$pagination-border-width:           1px;
+$pagination-border-color:           $gray-400;
+
+$pagination-focus-color:            rgba(255,255,255,1);
+$pagination-focus-bg:               $blue-600;
+
+$pagination-hover-bg:               rgba(0, 93, 147, .1); // background/transparent-brand
+$pagination-hover-border-color:     $pagination-border-color;
+
+$pagination-active-color:           var(--#{$prefix}body-color);
+$pagination-active-bg:              rgba(0,93,147,.1);
+$pagination-active-border-color:    $pagination-border-color;
+// scss-docs-end pagination-variables

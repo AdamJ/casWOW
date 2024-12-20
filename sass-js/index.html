@@ -27,10 +27,34 @@
         <p class="fs-4">You've successfully loaded up a Bootstrap example! It's loaded up with <a href="https://getbootstrap.com/">Bootstrap 5</a> and tooling for compiling our Sass and JavaScript to your needs.</p>
         <p>If this button appears blue and the link appears purple, you've done it!</p>
       </div>
-
+      <h2>Buttons</h2>
+      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-secondary">Secondary</button>
+      <button type="button" class="btn btn-success">Success</button>
+      <button type="button" class="btn btn-danger">Danger</button>
+      <button type="button" class="btn btn-warning">Warning</button>
+      <button type="button" class="btn btn-info">Info</button>
+      <button type="button" class="btn btn-light">Light</button>
+      <button type="button" class="btn btn-dark">Dark</button>
+      <button type="button" class="btn btn-link">Link</button>
+      <br class="my-5">
+      <button type="button" class="btn btn-outline-primary">Primary</button>
+      <button type="button" class="btn btn-outline-secondary">Secondary</button>
+      <button type="button" class="btn btn-outline-success">Success</button>
+      <button type="button" class="btn btn-outline-danger">Danger</button>
+      <button type="button" class="btn btn-outline-warning">Warning</button>
+      <button type="button" class="btn btn-outline-info">Info</button>
+      <button type="button" class="btn btn-outline-light">Light</button>
+      <button type="button" class="btn btn-outline-dark">Dark</button>
+      <hr class="col-1 my-5 mx-0">
       <button type="button" class="btn btn-primary me-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">Toggle offcanvas</button>
-      <a id="popoverButton" class="text-success" href="#" role="button" data-bs-toggle="popover" title="Custom popover" data-bs-content="This is a Bootstrap popover.">Example popover</a>
-
+      <a id="popoverButton" class="text-success me-3" href="#" role="button" data-bs-placement="top" data-bs-toggle="popover" title="Custom popover" data-bs-content="This is a Bootstrap popover.">Example popover</a>
+      <button type="button" class="btn btn-secondary"
+        data-bs-toggle="tooltip" data-bs-placement="top"
+        data-bs-custom-class="custom-tooltip"
+        data-bs-title="This top tooltip is themed via CSS variables.">
+        Custom tooltip
+      </button>
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-header">
           <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
@@ -54,7 +78,113 @@
       </div>
 
       <hr class="col-1 my-5 mx-0">
+      <h2>Badges</h2>
+      <p class="small">Badges and Pill Badges are styled identically</p>
+      <span class="badge text-bg-primary">Primary</span>
+      <span class="badge text-bg-secondary">Secondary</span>
+      <span class="badge text-bg-success">Success</span>
+      <span class="badge text-bg-danger">Danger</span>
+      <span class="badge text-bg-warning">Warning</span>
+      <span class="badge text-bg-info">Info</span>
+      <span class="badge text-bg-light">Light</span>
+      <span class="badge text-bg-dark">Dark</span>
+      <div class="d-flex flex-row justify-content-evenly">
+        <div>
+          <p>badge inside of a button</p>
+          <button type="button" class="btn btn-primary">
+            Notifications <span class="badge text-bg-light">4</span>
+          </button>
+        </div>
+        <div>
+          <p>positioned</p>
+          <button type="button" class="btn btn-outline-primary position-relative">
+            Inbox
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+              99+
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          </button>
+        </div>
+        <div>
+          <p>using a dot</p>
+          <button type="button" class="btn btn-secondary position-relative">
+            Profile
+            <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+              <span class="visually-hidden">New alerts</span>
+            </span>
+          </button>
+        </div>
+      </div>
 
+      <hr class="col-1 my-5 mx-0">
+      <h2>Card</h2>
+      <div class="card" style="width: 18rem;">
+        <img src="https://placehold.co/100" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+      <hr class="col-1 my-5 mx-0">
+      <h2>Table : Striped : Hover</h2>
+      <table class="table table-striped table-hover">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Adam</td>
+            <td>Jolicoeur</td>
+            <td><a href="#">@AdamJ</a></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Component</td>
+            <td>Assembly</td>
+            <td><a href="#">@cas</a></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">GitHub</td>
+            <td><a href="#">@github</a></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <hr class="col-1 my-5 mx-0">
+      <h2>Pagination</h2>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <hr class="col-1 my-5 mx-0">
+      <h2>Breadcrumbs</h2>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Library</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Data</li>
+        </ol>
+      </nav>
+
+      <hr class="col-1 my-5 mx-0">
       <h2>Guides</h2>
       <p>Read more detailed instructions and documentation on using or contributing to Bootstrap.</p>
       <ul class="icon-list">
@@ -69,7 +199,6 @@
 
       <p class="text-muted">Created and open sourced by the Bootstrap team. Licensed MIT.</p>
     </div>
-
     <script type="module" src="js/main.js"></script>
   </body>
 </html>

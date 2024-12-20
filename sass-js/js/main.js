@@ -14,3 +14,7 @@ document.querySelectorAll('[data-bs-toggle="popover"]')
   .forEach(popover => {
     new bootstrap.Popover(popover)
   })
+
+// Add tooltip enabler
+  const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+  const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))

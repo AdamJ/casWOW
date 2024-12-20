@@ -1,0 +1,224 @@
+$white:                     #fff;
+$black:                     #000;
+
+$gray-50:                   #F4F6F7;
+$gray-100:                  #E2E8EB;
+$gray-200:                  #C8D3D9;
+$gray-300:                  #A2B4BE;
+$gray-400:                  #758C9B;
+$gray-500:                  #5A7180;
+$gray-600:                  #4D5F6D;
+$gray-700:                  #43505B;
+$gray-800:                  #3C454E;
+$gray-900:                  #353C44;
+$gray-950:                  #20252C;
+
+$neutral-50:                   #f4f6f7;
+$neutral-100:                  #E2E8EB;
+$neutral-200:                  #C8D3D9;
+$neutral-300:                  #A2B4BE;
+$neutral-400:                  #758c9b;
+$neutral-500:                  #5A7180;
+$neutral-600:                  #4D5F6D;
+$neutral-700:                  #43505B;
+$neutral-800:                  #3C454E;
+$neutral-900:                  #353c44;
+$neutral-950:                  #20252C;
+
+$blue:                      #0163A3;
+$indigo:                    #4138CA;
+$purple:                    #6F2DD4;
+$pink:                      #BE185B;
+$red:                       #D40101;
+$orange:                    #C23A0C;
+$yellow:                    #B07500;
+$green:                     #326922;
+$teal:                      #20c997;
+$cyan:                      #0dcaf0;
+
+/* Blue */
+$blue-50:                   #f0f8ff;
+$blue-100:                  #e0f1fe;
+$blue-200:                  #b9e4fe;
+$blue-300:                  #7ccefd;
+$blue-400:                  #36b7fa;
+$blue-500:                  #0c9eeb;
+$blue-600:                  $blue; //#0083d2;
+$blue-700:                  #0163a3;
+$blue-800:                  #065486;
+$blue-900:                  #0b466f;
+$blue-950:                  #072d4a;
+// $blue-100: #DEF1FF;
+// $blue-200: #B6E6FF;
+// $blue-300: #76D3FF;
+// $blue-400: #2DBDFF;
+// $blue-500: #02A6F5;
+// $blue-600: $blue; // #0083d2
+// $blue-700: #0069AA;
+// $blue-800: #005d93;
+// $blue-900: #074973;
+// $blue-950: #042F4D;
+
+/* Indigo */
+$indigo-100: #E2E0FF;
+$indigo-200: #CAC7FE;
+$indigo-300: #AAA5FC;
+$indigo-400: #8881F8;
+$indigo-500: #6C63F1;
+$indigo-600: #5046E5;
+$indigo-700: #4138CA;
+$indigo-800: #3730A3;
+$indigo-900: #332E81;
+$indigo-950: #1E1B4B;
+
+/* Purple */
+$purple-100: #EDEAFD;
+$purple-200: #DED7FD;
+$purple-300: #C6B7FB;
+$purple-400: #AA8EF7;
+$purple-500: #8E60F2;
+$purple-600: #7E3FE8;
+$purple-700: #6F2DD4;
+$purple-800: #5D25B2;
+$purple-900: #4E2092;
+
+/* Pink */
+$pink-100: #FCE7EF;
+$pink-200: #FBCFE1;
+$pink-300: #F9A8C9;
+$pink-400: #F472A6;
+$pink-500: #EC488A;
+$pink-600: #DB2770;
+$pink-700: #BE185B;
+$pink-800: #9D174D;
+$pink-900: #831843;
+
+/* Red */
+$red-100: #FFDDDD;
+$red-200: #FFC1C1;
+$red-300: #FF9696;
+$red-400: #FF5A5A;
+$red-500: #FF2727;
+$red-600: #FB0707;
+$red-700: #D40101;
+$red-800: #AE0606;
+$red-900: #900C0C;
+
+/* Orange */
+$orange-100: #FFE0D5;
+$orange-200: #FEBFAA;
+$orange-300: #FD9674;
+$orange-400: #FB6C3C;
+$orange-500: #F94F16;
+$orange-600: #EA430C;
+$orange-700: #C23A0C;
+$orange-800: #9A3412;
+$orange-900: #7C2D12;
+
+/* Yellow */
+$yellow-100: #FAFFBD;
+$yellow-200: #FAFF7E;
+$yellow-300: #FFFE35;
+$yellow-400: #FFF100;
+$yellow-500: #FFD600;
+$yellow-600: #DEA500;
+$yellow-700: $yellow; // #B07500;
+$yellow-800: #915B02;
+$yellow-900: #7A4909;
+
+/* Green */
+$green-100: #DFF3D4;
+$green-200: #C0E9AD;
+$green-300: #98D97D;
+$green-400: #75C754;
+$green-500: #56AC36;
+$green-600: #3f8927;
+$green-700: $green; //#326922;
+$green-800: #2C5420;
+$green-900: #27481F;
+$green-950: #11270C;
+
+$cas-brown: #0E0800;
+$cas-yellow: #CDA871;
+
+/* cas */
+$cas-50: #fffaeb;
+$cas-100: #fff1c6;
+$cas-200: #ffe188;
+$cas-300: #ffcc4a;
+$cas-400: #ffbc33;
+$cas-500: #f99307;
+$cas-600: #dd6c02;
+$cas-700: #b74a06;
+$cas-800: #94380c;
+$cas-900: #7a2f0d;
+$cas-950: #461702;
+
+//
+// Only works if $enable-gradients is set to true
+//
+$gradient: linear-gradient(180deg, $blue-200, rgba($blue-200, .5)) !default;
+
+$body-color:                  $gray-950;
+$body-bg:                     $white;
+$body-secondary-color:        $gray-500;
+$body-secondary-bg:           $gray-200;
+$body-tertiary-color:         $gray-400;
+$body-tertiary-bg:            $gray-50;
+$body-emphasis-color:         $black;
+$transparent: transparent;
+
+$background-transparent-info: rgba(0, 131, 210, 0.2);
+
+$border-color: $neutral-400;
+$border-secondary: $neutral-200;
+$border-hover: $background-transparent-info;
+$border-active: $blue-800;
+$border-color-brand: #FFBC33;
+
+$text-link: $blue-700;
+$text-link-hover: $blue-800;
+
+// scss-docs-start theme-color-variables
+$primary:       $blue !default;
+$secondary:     $gray-500 !default;
+$success:       $green !default;
+$info:          #106FDF !default;
+$warning:       $orange-700 !default; // normally $yellow-600 but changed due to similarity with brand color
+$danger:        $red !default;
+$light:         $gray-50 !default;
+$dark:          $gray-950 !default;
+// scss-docs-end theme-color-variables
+
+// scss-docs-start theme-text-variables
+$primary-text-emphasis:   $blue-900;
+$secondary-text-emphasis: $gray-900;
+$success-text-emphasis:   $green-900;
+$info-text-emphasis:      $blue-700;
+$warning-text-emphasis:   $orange-900;
+$danger-text-emphasis:    $red-900;
+$light-text-emphasis:     $gray-700 !default;
+$dark-text-emphasis:      $gray-700 !default;
+// scss-docs-end theme-text-variables
+
+// scss-docs-start theme-bg-subtle-variables
+$primary-bg-subtle:       rgba(0, 93, 147, 0.1);
+$secondary-bg-subtle:     rgba(55, 48, 163, 0.2);
+$success-bg-subtle:       rgba(44, 84, 32, 0.2);
+$info-bg-subtle:          rgba(0, 131, 210, 0.2);
+$warning-bg-subtle:       rgba(138, 90, 9, 0.2);
+$danger-bg-subtle:        rgba(174, 6, 6, 0.2);
+$light-bg-subtle:         rgba(226, 231, 235, 0.2);
+$dark-bg-subtle:          $gray-200 !default;
+// scss-docs-end theme-bg-subtle-variables
+
+// scss-docs-start theme-border-subtle-variables
+$primary-border-subtle:   $blue-200;
+$secondary-border-subtle: $neutral-100;
+$success-border-subtle:   $green-200;
+$info-border-subtle:      $blue-50;
+$warning-border-subtle:   $orange-200;
+$danger-border-subtle:    $red-200;
+$light-border-subtle:     $gray-100;
+$dark-border-subtle:      $gray-200;
+// scss-docs-end theme-border-subtle-variables

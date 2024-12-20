@@ -1,0 +1,12 @@
+// Alerts
+//
+// Define alert colors, border radius, and padding.
+
+// scss-docs-start alert-variables
+$alert-padding-y:               .75rem;
+$alert-padding-x:               1.25rem;
+$alert-margin-bottom:           1rem !default;
+$alert-border-radius:           1.125rem;
+$alert-link-font-weight:        $font-weight-bold !default;
+$alert-border-width:            var(--#{$prefix}border-width) !default;
+// scss-docs-end alert-variables

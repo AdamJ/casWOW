@@ -1,0 +1,44 @@
+// scss-docs-end table-variables
+// Tables
+//
+// Customizes the `.table` component with basic values, each used across all table variations.
+
+// scss-docs-start table-variables
+$table-cell-padding-y:        .5rem;
+$table-cell-padding-x:        1rem;
+$table-cell-padding-y-sm:     .25rem;
+$table-cell-padding-x-sm:     .5rem;
+
+$table-cell-vertical-align:   middle;
+
+$table-color:                 var(--#{$prefix}body-color);
+$table-bg:                    var(--#{$prefix}body-bg);
+$table-accent-bg:             $transparent;
+
+$table-th-font-weight:        null !default;
+
+$table-striped-color:         $table-color;
+$table-striped-bg-factor:     null;
+$table-striped-bg:            $gray-50;// #f4f6f7;
+
+$table-active-color:          $table-color;
+$table-active-bg-factor:      null;
+$table-active-bg:             $blue-50; //#f0f8ff;
+
+$table-hover-color:           $table-color;
+$table-hover-bg-factor:       null;
+$table-hover-bg:              rgba(0, 131, 210, 0.2);
+
+$table-border-factor:         null;
+$table-border-width:          1;
+$table-border-color:          rgba(34, 36, 38, 0.10);
+
+$table-striped-order:         odd !default;
+$table-striped-columns-order: even !default;
+
+$table-group-separator-color: currentcolor !default;
+
+$table-caption-color:         var(--#{$prefix}secondary-color) !default;
+
+$table-bg-scale:              null;
+// scss-docs-end table-variables

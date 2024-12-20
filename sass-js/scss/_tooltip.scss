@@ -1,0 +1,14 @@
+// scss-docs-start tooltip-variables
+$tooltip-font-size:                 $font-size-sm;
+$tooltip-max-width:                 15rem;
+$tooltip-color:                     var(--cas-white);
+$tooltip-bg:                        var(--cas-gray-900);
+$tooltip-border-radius:             var(--#{$prefix}border-radius) !default;
+$tooltip-opacity:                   .9;
+$tooltip-padding-y:                 $spacer * .5;
+$tooltip-padding-x:                 $spacer * .5;
+
+.custom-tooltip {
+  --bs-tooltip-bg: var(--bd-violet-bg);
+  --bs-tooltip-color: var(--bs-white);
+}

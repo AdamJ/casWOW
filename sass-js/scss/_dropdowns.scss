@@ -1,0 +1,54 @@
+// Dropdowns
+//
+// Dropdown menu container and contents.
+
+// scss-docs-start dropdown-variables
+$dropdown-min-width:                10rem;
+$dropdown-padding-x:                0;
+$dropdown-padding-y:                .5rem;
+$dropdown-spacer:                   .125rem;
+$dropdown-font-size:                $font-size-base;
+$dropdown-color:                    var(--#{$prefix}body-color);
+$dropdown-bg:                       var(--#{$prefix}body-bg);
+$dropdown-border-color:             var(--#{$prefix}border-color);
+$dropdown-border-radius:            var(--#{$prefix}border-radius);
+$dropdown-border-width:             var(--#{$prefix}border-width);
+$dropdown-inner-border-radius:      calc(#{$dropdown-border-radius} - #{$dropdown-border-width}) !default; // stylelint-disable-line function-disallowed-list
+$dropdown-divider-bg:               $dropdown-border-color;
+$dropdown-divider-margin-y:         $spacer * .25;
+$dropdown-box-shadow:               0 .5rem 1rem 0 rgba(0, 0, 0, 0.14), 0 0 .125rem 0 rgba(0, 0, 0, 0.12);
+
+$dropdown-link-color:               var(--#{$prefix}link-color) !default;
+$dropdown-link-hover-color:         var(--#{$prefix}hover-color) !default;
+$dropdown-link-hover-bg:            var(--#{$prefix}tertiary-bg) !default;
+
+$dropdown-link-active-color:        var(--bs-white);
+$dropdown-link-active-bg:           $blue-600;
+
+$dropdown-link-disabled-color:      var(--#{$prefix}tertiary-color) !default;
+
+$dropdown-item-padding-y:           $spacer * .25;
+$dropdown-item-padding-x:           $spacer;
+
+$dropdown-header-color:             var(--#{$prefix}bs-body-color);
+$dropdown-header-padding-x:         $spacer * .5;
+$dropdown-header-padding-y:         $spacer * .25;
+// fusv-disable
+$dropdown-header-padding:           $dropdown-header-padding-y $dropdown-header-padding-x !default; // Deprecated in v5.2.0
+// fusv-enable
+// scss-docs-end dropdown-variables
+
+// scss-docs-start dropdown-dark-variables
+$dropdown-dark-color:               $gray-50;
+$dropdown-dark-bg:                  $gray-950 !default;
+$dropdown-dark-border-color:        $dropdown-border-color !default;
+$dropdown-dark-divider-bg:          $dropdown-divider-bg !default;
+$dropdown-dark-box-shadow:          null !default;
+$dropdown-dark-link-color:          $blue-200;
+$dropdown-dark-link-hover-color:    $gray-950;
+$dropdown-dark-link-hover-bg:       $blue-400;
+$dropdown-dark-link-active-color:   $gray-950;
+$dropdown-dark-link-active-bg:      $blue-400;
+$dropdown-dark-link-disabled-color: $gray-400 !default;
+$dropdown-dark-header-color:        $gray-500 !default;
+// scss-docs-end dropdown-dark-variables
